@@ -14,7 +14,9 @@
 
 July 23, 2019 forked by Jeremy Ellis
 
-https://hpssjellis.github.io/iota.lib.cpp/docs/html/index.html
+Gitpages of the Docs
+
+https://hpssjellis.github.io/iota.lib.cpp/html/index.html
 
 
 
