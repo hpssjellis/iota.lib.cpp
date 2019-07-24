@@ -11,6 +11,20 @@
 [![IOTA API coverage][iota-api-badge]][iota-api]
 [![MIT License][license-badge]][license]
 
+
+July 23, 2019 forked by Jeremy Ellis
+
+https://hpssjellis.github.io/iota.lib.cpp/docs/html/index.html
+
+
+
+
+
+
+
+
+
+
 This is not (yet) an official C++ client library for the [IOTA Reference Implementation (IRI)](https://github.com/iotaledger/iri).
 
 It implements both the [official API](https://iota.readme.io/docs/getting-started), as well as [newly proposed features](https://github.com/iotaledger/wiki/blob/master/api-proposal.md#proposed-api-calls).
