@@ -22,8 +22,6 @@ RUN mkdir -p /home/gitpod/rocksetta                                             
     && touch /home/gitpod/.android/repositories.cfg                                                            \
     && touch /home/gitpod/rocksetta/logs/mylogs.txt                                                            \
     && echo "Installation start, made some folders in /home/gitpod" >> /home/gitpod/rocksetta/logs/mylogs.txt  \
-    && echo "Try installing cordova, ionic, qrcode, @ionic/lab, cordova-res, native-run  @capacitor/core @capacitor/cli electron electron-packager " >> /home/gitpod/rocksetta/logs/mylogs.txt  \
-    && npm install -g cordova ionic qrcode @ionic/lab cordova-res native-run @capacitor/core @capacitor/cli electron  electron-packager                               \
     && echo "Back to root to install the Android sdk" >> /home/gitpod/rocksetta/logs/mylogs.txt                
     
 
