@@ -19,6 +19,10 @@ Gitpages of the Docs
 https://hpssjellis.github.io/iota.lib.cpp/html/index.html
 
 
+barebones gitpod snapshot
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/4efc51fc-ca65-4ba5-8ce9-aa4536d5c2a5)
+
 
 -----------------------------------------------------------------------------------------------
 
