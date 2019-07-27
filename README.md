@@ -19,9 +19,19 @@ Gitpages of the Docs
 https://hpssjellis.github.io/iota.lib.cpp/html/index.html
 
 
-barebones gitpod snapshot
+barebones gitpod snapshot made July 26, 2019
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/4efc51fc-ca65-4ba5-8ce9-aa4536d5c2a5)
+
+.
+
+Compiled Gitpod snapshot made July 26, 2019
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/a7b1d08d-4e88-40a6-a196-7954b78fed5d)
+
+
+
+
 
 
 -----------------------------------------------------------------------------------------------
