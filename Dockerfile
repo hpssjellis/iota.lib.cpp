@@ -47,8 +47,6 @@ USER gitpod
   
 RUN mkdir -p /home/gitpod/rocksetta                                                                            \ 
     && mkdir -p /home/gitpod/rocksetta/logs                                                                    \ 
-    && mkdir -p /home/gitpod/.android                                                                          \
-    && touch /home/gitpod/.android/repositories.cfg                                                            \
     && touch /home/gitpod/rocksetta/logs/mylogs.txt                                                            \
     && echo "Installation start, made some folders in /home/gitpod" >> /home/gitpod/rocksetta/logs/mylogs.txt  \
     && echo "Back to root to install the Android sdk" >> /home/gitpod/rocksetta/logs/mylogs.txt                
@@ -60,14 +58,6 @@ RUN mkdir -p /home/gitpod/rocksetta                                             
 
 
 
-                      
-
-
-RUN  echo "Here is the android sdk" >> /home/gitpod/rocksetta/logs/mylogs.txt             \
-     && ls -ls /home/gitpod/.android >> /home/gitpod/rocksetta/logs/mylogs.txt            \
-     &&  echo "Installation all done" >> /home/gitpod/rocksetta/logs/mylogs.txt          
-
-#RUN sysctl kernel.unprivileged_userns_clone=1
 
 # Give back control
 USER root
