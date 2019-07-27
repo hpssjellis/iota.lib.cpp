@@ -60,24 +60,7 @@ RUN mkdir -p /home/gitpod/rocksetta                                             
 
 
 
-# Give back control
-USER root
-
-
-
- ENV ANDROID_SDK_ROOT /home/gitpod/.android
- ENV PATH ${PATH}:${ANDROID_SDK_ROOT}/tools:${ANDROID_SDK_ROOT}/tools/bin:${ANDROID_SDK_ROOT}/platform-tools
-
-WORKDIR /home/gitpod/.android
-
-RUN wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip     \
-    && unzip sdk-tools-linux-4333796.zip                                          \                                                             
-    && rm sdk-tools-linux-4333796.zip                                             \
-    && chmod -R 775 /home/gitpod/.android                                         \
-    && chown -R gitpod:gitpod /home/gitpod/.android                               
-
-
-USER gitpod
+                      
 
 
 RUN  echo "Here is the android sdk" >> /home/gitpod/rocksetta/logs/mylogs.txt             \
