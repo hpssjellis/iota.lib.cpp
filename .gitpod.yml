@@ -12,6 +12,13 @@ tasks:
 
               echo "Starting .gitpod.yml installation" &>>  /workspace/iota.lib.cpp/logs/gitpod-install-log.txt     &&
               
+              git clone https://github.com/whoshuu/cpr.git                                                          &&
+              git clone https://github.com/curl/curl.git                                                            &&
+              git clone https://github.com/google/googletest.git                                                    &&
+              git clone https://github.com/nlohmann/json.git                                                        &&
+              git clone https://github.com/XKCP/XKCP.git                                                            &&
+              
+              
               
               echo "Starting Apache"                   &>>  /workspace/iota.lib.cpp/logs/gitpod-install-log.txt     &&   
               apachectl start                                                                                       &&
